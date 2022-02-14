@@ -12,7 +12,7 @@ services:
       MYSQL_USER: ${DB_USER}
       MYSQL_PASSWORD: ${DB_PASSWORD}
     volumes:
-      - db_data:/var/lib/mysqlservices
+      - db_data:/var/lib/mysql
   db_manager:
     image: phpmyadmin
     depends_on:
