@@ -2,7 +2,7 @@
 
 $i++;
 $cfg['Servers'][$i]['verbose'] = 'Local';
-$cfg['Servers'][$i]['host'] = 'db';
+$cfg['Servers'][$i]['host'] = 'mysql';
 $cfg['Servers'][$i]['port'] = 3306;
 $cfg['Servers'][$i]['auth_type'] = 'config';
 $cfg['Servers'][$i]['user'] = '';
