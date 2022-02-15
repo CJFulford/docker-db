@@ -14,7 +14,7 @@ services:
     image: phpmyadmin
     restart: always
     depends_on:
-      - db
+      - mysql
     ports:
       - "${PHPMYADMIN_EXTERNAL_PORT}:80"
     volumes:
